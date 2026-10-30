@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-10-30T00:41:56.234810+00:00",
-  "updated_date": "20261021-20261030",
+  "generated_at": "2026-10-30T00:58:06.024990+00:00",
+  "updated_date": "20261001-20261030",
   "carryover_days": 9,
-  "tag_states": {}
+  "tag_states": {
+    "PQC-Acc": {
+      "updated_date": "20261001-20261030",
+      "carryover_days": 9,
+      "items": []
+    }
+  }
 }
