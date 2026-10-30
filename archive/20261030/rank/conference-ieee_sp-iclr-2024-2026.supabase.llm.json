@@ -1,0 +1,356 @@
+{
+  "top_k": 200,
+  "generated_at": "2026-10-30T00:56:17.485389+00:00",
+  "papers": [
+    {
+      "id": "ieee-sp-2026-scalable-registration-based-encryption-from-lattices",
+      "source": "IEEE-SP-2026-CSDL",
+      "title": "Scalable Registration-Based Encryption from Lattices",
+      "abstract": "Registration-Based Encryption (RBE) is a public-key encryption mechanism which allows a user to register their identity (e.g. email address) and self-generated public key with a key curator (e.g. an organisation). The key curator aggregates these keys into a compact digest. Using only this digest and the recipient's identity, anyone can encrypt messages to any registered user. As the key curator is not entrusted with any secrets, RBE presents a solution to the key escrow problem, which impedes the adoption of Identity-Based Encryption. This makes RBE an attractive solution for secure communication with and among members of an organisation while preserving user privacy. Despite recent advances [Döttling-Kolonelos-Lai-Lin-Malavolta-Rahimi, EUROCRYPT'23; Fiore-Kolonelos-dePerthuis, ASIACRYPT'23], practical constructions of RBE are still limited to a small number of registered users (e.g. 1024), lack post-quantum security, or have ciphertext sizes scaling in the order of GB. The predominant way towards constructing practical RBE is a generic transformation from Laconic Encryption (LE). In this work, we identify an efficiency bottleneck in this transformation and present a new primitive called Batched Laconic Encryption (BLE) which admits a more succinct transformation to RBE. Our resulting RBE scheme is the first post-quantum construction that simultaneously supports a large number of registered users and asymptotically outperforms all comparable RBE schemes. Concretely, for at most 230 registered users at 128-bit security, our scheme achieves a ciphertext size of 7 MB, improving on previously reported results by three orders of magnitude. We confirm our results through an open-source prototype implementation demonstrating that all algorithms execute within a few milliseconds. The post-quantum security of our construction is based on the standard Learning with Errors assumption, and our analysis enables several tweaks to significantly reduce ciphertext sizes in practical deployments.",
+      "authors": [
+        "Michael Klooß",
+        "Russell W. F. Lai",
+        "Jan Niklas Siemer",
+        "Monisha Swarnakar"
+      ],
+      "primary_category": "ieee_sp",
+      "categories": [
+        "ieee_sp",
+        "security"
+      ],
+      "published": "2026-05-01T00:00:00+00:00",
+      "link": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500d128/2geEWUwjm7e",
+      "pdf_url": null,
+      "tags": [
+        "keyword:PQC-Acc",
+        "query:PQC-Acc"
+      ]
+    },
+    {
+      "id": "ieee-sp-2026-lattice-based-threshold-blind-signatures",
+      "source": "IEEE-SP-2026-CSDL",
+      "title": "Lattice-Based Threshold Blind Signatures",
+      "abstract": "Blind signatures are a central tool for privacypreserving protocols. They allow users to obtain signatures from a signer without the signer seeing the signed message. For instance, it enables electronic cash: signatures correspond to coins which can be issued by the bank in a privacypreserving manner via blind signing. To mitigate the risk of key compromise, threshold blind signatures allow the distribution of the signing key amongst - parties. While recent works have focused on improving the security of this primitive in the classical setting, no construction is known to date in the post-quantum setting. We present the first construction of a threshold blind signature secure in the post-quantum setting, based on lattices. We prove its security under an interactive variant of the SIS assumption introduced in [Agrawal et al., CCS'22]. Our construction has a reasonable overhead of a factor of roughly - to - in signature size over comparable nonthreshold blind signatures over lattices under heuristic but natural assumptions.",
+      "authors": [
+        "Sebastian Faller",
+        "Guilhem Niot",
+        "Michael Reichle"
+      ],
+      "primary_category": "ieee_sp",
+      "categories": [
+        "ieee_sp",
+        "security"
+      ],
+      "published": "2026-05-01T00:00:00+00:00",
+      "link": "https://www.computer.org/csdl/proceedings-article/sp/2026/606500c196/2geEVUjjSGA",
+      "pdf_url": null,
+      "tags": [
+        "keyword:PQC-Acc",
+        "query:PQC-Acc"
+      ]
+    },
+    {
+      "id": "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography",
+      "source": "IEEE-SP-2024-CSDL",
+      "title": "MPC-in-the-Head Framework without Repetition and its Applications to the Lattice-based Cryptography",
+      "abstract": "The MPC-in-the-Head framework has been proposed as a solution for Non-Interactive Zero-Knowledge Arguments of Knowledge (NIZKAoK) due to its efficient proof generation. However, most existing NIZKAoK constructions using this approach require multiple MPC evaluations to achieve negligible soundness error, resulting in proof size and time that are asymptotically at least λ times the size of the circuit of the NP relation. In this paper, we propose a novel method to eliminate the need for repeated MPC evaluations, resulting in a NIZKAoK protocol for any NP relation that we call Diet. The proof size and time of Diet are asymptotically only polylogarithmic with respect to the size of the circuit C of the NP relation, but are independent of the security parameter λ. Hence, both the proof size and time can be significantly reduced.Moreover, Diet offers promising concrete efficiency for proving Learning With Errors (LWE) problems and its variants. Our solution provides significant advantages over other schemes in terms of both proof size and proof time, when considering both factors together. Specifically, Diet is a promising method for proving knowledge of secret keys for lattice-based key encapsulation mechanisms (KEMs) such as Frodo and Kyber, offering a practical solution to future post-quantum certificate management. For Kyber 512, our implementation achieves an online proof size of 83.65 kilobytes (KB) with a preprocessing overhead of 152.02KB. The implementation is highly efficient, with an online proof time of only 0.68 seconds and a preprocessing time of 0.81 seconds. Notably, our approach provides the first reported implementation of proving knowledge of secret keys for Kyber 512 using post-quantum primitives-based zero-knowledge proofs.",
+      "authors": [
+        "Weihao Bai",
+        "Long Chen",
+        "Qianwen Gao",
+        "Zhenfeng Zhang"
+      ],
+      "primary_category": "ieee_sp",
+      "categories": [
+        "ieee_sp",
+        "security"
+      ],
+      "published": "2024-05-01T00:00:00+00:00",
+      "link": "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a157/1Ub24hrQXle",
+      "pdf_url": "https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1Ub24hrQXle/pdf",
+      "tags": [
+        "keyword:PQC-Acc",
+        "query:PQC-Acc"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "type": "intent_query",
+      "tag": "PQC-Acc",
+      "paper_tag": "query:PQC-Acc",
+      "query_text": "Construct post quantum accumulator schemes with membership and non membership proofs.",
+      "sim_scores": {
+        "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography": {
+          "score": 0.010869565217391304,
+          "rank": 32
+        },
+        "ieee-sp-2026-lattice-based-threshold-blind-signatures": {
+          "score": 0.009615384615384616,
+          "rank": 44
+        }
+      },
+      "ranked": [
+        {
+          "paper_id": "ieee-sp-2026-lattice-based-threshold-blind-signatures",
+          "score": 0.7703788748564866,
+          "star_rating": 4
+        },
+        {
+          "paper_id": "ieee-sp-2026-scalable-registration-based-encryption-from-lattices",
+          "score": 0.6388587937883712,
+          "star_rating": 4
+        },
+        {
+          "paper_id": "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography",
+          "score": 0.578503688092729,
+          "star_rating": 4
+        }
+      ]
+    },
+    {
+      "type": "intent_query",
+      "tag": "PQC-Acc",
+      "paper_tag": "query:PQC-Acc",
+      "query_text": "Design cryptographic accumulators that remain secure against quantum adversaries.",
+      "sim_scores": {
+        "ieee-sp-2026-lattice-based-threshold-blind-signatures": {
+          "score": 0.014492753623188406,
+          "rank": 9
+        },
+        "ieee-sp-2026-scalable-registration-based-encryption-from-lattices": {
+          "score": 0.014084507042253521,
+          "rank": 11
+        },
+        "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography": {
+          "score": 0.011363636363636364,
+          "rank": 28
+        }
+      },
+      "ranked": [
+        {
+          "paper_id": "ieee-sp-2026-lattice-based-threshold-blind-signatures",
+          "score": 0.8798076923076922,
+          "star_rating": 4
+        },
+        {
+          "paper_id": "ieee-sp-2026-scalable-registration-based-encryption-from-lattices",
+          "score": 0.5213675213675214,
+          "star_rating": 4
+        },
+        {
+          "paper_id": "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography",
+          "score": 0.41577409931840303,
+          "star_rating": 3
+        }
+      ]
+    },
+    {
+      "type": "keyword",
+      "tag": "PQC-Acc",
+      "paper_tag": "keyword:PQC-Acc",
+      "query_text": "cryptographic accumulator construction secure against quantum adversaries",
+      "sim_scores": {
+        "ieee-sp-2026-scalable-registration-based-encryption-from-lattices": {
+          "score": 0.015151515151515152,
+          "rank": 6
+        },
+        "ieee-sp-2026-lattice-based-threshold-blind-signatures": {
+          "score": 0.014492753623188406,
+          "rank": 9
+        },
+        "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography": {
+          "score": 0.011363636363636364,
+          "rank": 28
+        }
+      }
+    },
+    {
+      "type": "keyword",
+      "tag": "PQC-Acc",
+      "paper_tag": "keyword:PQC-Acc",
+      "query_text": "lattice-based cryptographic accumulator constructions and proofs",
+      "sim_scores": {
+        "ieee-sp-2026-lattice-based-threshold-blind-signatures": {
+          "score": 0.016129032258064516,
+          "rank": 2
+        },
+        "ieee-sp-2026-scalable-registration-based-encryption-from-lattices": {
+          "score": 0.015384615384615385,
+          "rank": 5
+        },
+        "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography": {
+          "score": 0.013513513513513514,
+          "rank": 14
+        }
+      }
+    }
+  ],
+  "global_candidate_ids": [
+    "openreview-iclr-2025-xnvttczoav",
+    "openreview-iclr-2025-jyqyyjto88",
+    "openreview-iclr-2025-yhuoaibfby",
+    "ieee-sp-2026-a-maliciously-secure-post-quantum-oprf-from-crypto-dark-matter",
+    "ieee-sp-2026-from-perfect-to-approximate-hints-efficient-lwe-secret-recovery-leveraging-low-hamming-weight",
+    "ieee-sp-2026-lattice-based-threshold-blind-signatures",
+    "ieee-sp-2026-blinding-post-quantum-hash-and-sign-signatures",
+    "ieee-sp-2026-code-based-scalable-collaborative-snarks",
+    "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography",
+    "openreview-iclr-2025-xrwsdcgwkc",
+    "ieee-sp-2026-scalable-registration-based-encryption-from-lattices",
+    "openreview-iclr-2025-hqxzi4d3ws",
+    "openreview-iclr-2024-sl7djdvpde",
+    "ieee-sp-2025-benchmarking-attacks-on-learning-with-errors",
+    "ieee-sp-2026-practical-asynchronous-distributed-key-reconfiguration-and-its-applications",
+    "openreview-iclr-2025-waf6hrec53",
+    "ieee-sp-2026-sok-critical-evaluation-of-quantum-machine-learning-for-adversarial-robustness",
+    "openreview-iclr-2024-pb1fersqxh",
+    "ieee-sp-2024-secure-messaging-with-strong-compromise-resilience-temporal-privacy-and-immediate-decryption",
+    "ieee-sp-2026-efficient-arithmetic-and-comparison-homomorphic-encryption-with-space-switching",
+    "ieee-sp-2026-ultraproofs-scalable-reed-solomon-code-commitment",
+    "openreview-iclr-2025-2xdrkrhbt9",
+    "openreview-iclr-2024-jsjgd0xfgv",
+    "openreview-iclr-2024-7uhlkybsqm",
+    "ieee-sp-2026-a-leakage-free-framework-for-private-set-operations",
+    "openreview-iclr-2025-un9gzm0bzb",
+    "openreview-iclr-2025-fbqoeoquru",
+    "ieee-sp-2026-dory-streaming-pcg-with-small-memory",
+    "ieee-sp-2024-efficient-zero-knowledge-arguments-for-paillier-cryptosystem",
+    "ieee-sp-2026-efficient-fuzzy-private-set-intersection-from-secret-shared-oprf",
+    "ieee-sp-2024-cryptovampire-automated-reasoning-for-the-complete-symbolic-attacker-cryptographic-model",
+    "ieee-sp-2026-cavern-efficient-honest-majority-maliciously-secure-2-1-pc-for-mathbb-z-2-n-via-dpfs",
+    "openreview-iclr-2025-tmswfgpbb8",
+    "ieee-sp-2024-bulkor-enabling-bulk-loading-for-path-oram",
+    "openreview-iclr-2025-kjmlabjse2",
+    "ieee-sp-2025-security-attacks-abusing-pulse-level-quantum-circuits",
+    "ieee-sp-2024-invisiline-invisible-plausibly-deniable-storage",
+    "openreview-iclr-2025-zhehiifqvf",
+    "openreview-iclr-2025-vm4cdvsct8",
+    "openreview-iclr-2025-tpqu4pzvv9",
+    "openreview-iclr-2025-3hpotzxs5s",
+    "ieee-sp-2024-make-revocation-cheaper-hardware-based-revocable-attribute-based-encryption",
+    "ieee-sp-2026-apex-accurate-parallel-expressive-homomorphic-execution-for-encrypted-databases",
+    "openreview-iclr-2024-ns8sxmj2ic",
+    "openreview-iclr-2025-tgtxjalwdz",
+    "openreview-iclr-2025-pz0ek4g6an",
+    "ieee-sp-2024-ligetron-lightweight-scalable-end-to-end-zero-knowledge-proofs-post-quantum-zk-snarks-on-a-browser",
+    "ieee-sp-2026-practical-multi-party-private-set-intersection-with-reducible-zero-sharing",
+    "openreview-iclr-2025-8wtbrv2k2b",
+    "ieee-sp-2026-starfighters-on-the-general-applicability-of-x-wing",
+    "openreview-iclr-2024-cgvz530jg8",
+    "openreview-iclr-2025-wgnmdxs2nz",
+    "ieee-sp-2026-gossamer-lightweight-and-linear-communication-asynchronous-dynamic-proactive-secret-sharing-and-the-applications",
+    "openreview-iclr-2024-rinbd8jpop",
+    "ieee-sp-2026-aespoly-symmetric-key-cryptographic-designs-using-instruction-level-parallelism-between-aes-and-polynomial-hash",
+    "openreview-iclr-2024-ypeq0epito",
+    "openreview-iclr-2024-tuiegloner",
+    "openreview-iclr-2025-38hlptvpe7",
+    "openreview-iclr-2025-p7f55hqtv8",
+    "openreview-iclr-2025-hvtaxj0i5m",
+    "openreview-iclr-2025-xaarrktnh3",
+    "ieee-sp-2025-zero-knowledge-location-privacy-via-accurate-floating-point-snarks",
+    "openreview-iclr-2024-a1z0jnxngp",
+    "openreview-iclr-2025-tdqazbqvdi",
+    "openreview-iclr-2024-grgwf0abuc",
+    "ieee-sp-2024-distributed-scalable-oblivious-sorting-and-shuffling",
+    "openreview-iclr-2025-bb0oknpznp",
+    "openreview-iclr-2025-0tiimnnmdm",
+    "ieee-sp-2026-decomposition-based-optimal-bounds-for-privacy-amplification-via-shuffling",
+    "ieee-sp-2024-asterisk-super-fast-mpc-with-a-friend",
+    "openreview-iclr-2024-lroh08ek6n",
+    "ieee-sp-2026-single-server-private-outsourcing-of-zk-snarks",
+    "openreview-iclr-2024-b27fjxtfey",
+    "ieee-sp-2026-concretely-efficient-multi-key-homomorphic-secret-sharing-and-applications",
+    "openreview-iclr-2024-i3qbvbiwbp",
+    "ieee-sp-2026-latoram-orams-from-lateral-stashes-and-delayed-shuffling",
+    "ieee-sp-2026-decor-delegated-computation-on-randomness-for-secure-evaluation-of-nonlinear-functions",
+    "openreview-iclr-2025-kpq3iijud3",
+    "openreview-iclr-2024-dlrhrimvmb",
+    "ieee-sp-2024-communication-efficient-fault-tolerant-pir-over-erasure-coded-storage",
+    "ieee-sp-2026-towards-practical-zero-knowledge-proof-for-pspace",
+    "ieee-sp-2024-gauv-a-graph-based-automated-verification-framework-for-perfect-semi-honest-security-of-multiparty-computation-protocols",
+    "openreview-iclr-2024-8htnanmsyp",
+    "ieee-sp-2026-leafblower-a-leakage-attack-against-tee-based-encrypted-databases",
+    "openreview-iclr-2024-bqniz6aid0",
+    "ieee-sp-2024-sok-efficient-design-and-implementation-of-polynomial-hash-functions-over-prime-fields",
+    "openreview-iclr-2024-6cdecjse1y",
+    "openreview-iclr-2025-yuwxdsqnxw",
+    "ieee-sp-2024-threshold-ecdsa-in-three-rounds",
+    "ieee-sp-2024-hints-threshold-signatures-with-silent-setup",
+    "openreview-iclr-2024-vrbvfxwami",
+    "ieee-sp-2026-secure-lookup-tables-faster-leaner-and-more-general",
+    "openreview-iclr-2024-gsn43rbdwp",
+    "openreview-iclr-2025-wwhz2rfaxf",
+    "openreview-iclr-2024-2eamgpuwsc",
+    "ieee-sp-2024-scalable-mixed-mode-mpc",
+    "ieee-sp-2026-can-i-get-more-an-incremental-inference-attack-on-encrypted-sql",
+    "openreview-iclr-2025-x9j66fnms8",
+    "openreview-iclr-2025-hyrrupfs0o",
+    "openreview-iclr-2024-vtgpslvtyj",
+    "ieee-sp-2024-springproofs-efficient-inner-product-arguments-for-vectors-of-arbitrary-length",
+    "ieee-sp-2024-device-oriented-group-messaging-a-formal-cryptographic-analysis-of-matrix-core",
+    "openreview-iclr-2025-lirr6wfkd6",
+    "openreview-iclr-2025-mumvr33ftu"
+  ],
+  "global_pool_lane_top_k": 30,
+  "global_pool_limit": 120,
+  "global_pool_guaranteed_per_lane": 2,
+  "global_pool_effective_size": 104,
+  "reranked_at": "2026-10-30T00:56:47.836342+00:00",
+  "llm_ranked": [
+    {
+      "paper_id": "ieee-sp-2026-scalable-registration-based-encryption-from-lattices",
+      "score": 7.0,
+      "evidence_en": "lattice-based registration-based encryption with compact key digest aggregation",
+      "evidence_cn": "基于格的注册型加密，使用紧凑密钥摘要聚合",
+      "canonical_evidence": "基于格的注册型加密，使用紧凑密钥摘要聚合",
+      "tldr_en": "Builds scalable registration-based encryption from lattices, where a key curator aggregates registered public keys into a compact digest, closely related to lattice-based accumulator-style aggregation and post-quantum security.",
+      "tldr_cn": "注册型加密需要密钥管理者将用户公钥聚合成紧凑摘要，以支持无需托管的公钥加密，但现有方案的可扩展性受限。本文提出基于格的注册型加密构造，利用格上密码技术实现可扩展的密钥聚合与更新。该方案在保持后量子安全的同时，使加密者仅凭摘要和身份即可加密。其紧凑摘要与成员关系证明机制对格基累加器构造具有借鉴意义，推动了后量子聚合认证结构的发展。",
+      "title_zh": "基于格的可扩展注册型加密",
+      "motivation_cn": "注册型加密需聚合大量公钥并避免密钥托管，现有方案扩展性不足。",
+      "method_cn": "文章构造基于格的注册型加密，让密钥管理者将注册公钥聚合为紧凑摘要。",
+      "result_cn": "该方案实现可扩展的密钥聚合与更新，并保持后量子安全性。",
+      "conclusion_cn": "其紧凑摘要与成员证明思路对格基累加器设计有参考价值。",
+      "matched_requirement_id": "req-2",
+      "matched_query_tag": "query:pqc-acc",
+      "matched_query_text": "lattice-based cryptographic accumulator constructions and proofs"
+    },
+    {
+      "paper_id": "ieee-sp-2026-lattice-based-threshold-blind-signatures",
+      "score": 4.0,
+      "evidence_en": "lattice-based post-quantum construction and security proofs, transferable to PQ accumulator design",
+      "evidence_cn": "基于格的后量子构造与安全性证明，可迁移至后量子累加器设计",
+      "canonical_evidence": "基于格的后量子构造与安全性证明，可迁移至后量子累加器设计",
+      "tldr_en": "This work gives the first lattice-based threshold blind signature secure in the post-quantum setting, offering lattice techniques relevant to post-quantum primitive design but not accumulators.",
+      "tldr_cn": "本文针对门限盲签名在后量子环境下缺乏构造的问题，提出首个基于格的门限盲签名方案，并在交互式变体SIS假设下证明其安全性。方案将签名密钥分散于多方以缓解密钥泄露风险，同时保持盲签名的隐私性。其格基后量子安全证明技术对构造抗量子累加器有借鉴意义，但研究对象并非累加器本身。",
+      "title_zh": "基于格的门限盲签名",
+      "motivation_cn": "门限盲签名在经典设定已有进展，但后量子设定下尚无构造。",
+      "method_cn": "基于格构造门限盲签名，并在交互式SIS假设变体下给出安全性证明。",
+      "result_cn": "得到首个在后量子设定下安全的门限盲签名方案。",
+      "conclusion_cn": "为隐私保护协议提供了抗量子的门限盲签名工具。",
+      "matched_requirement_id": "req-2",
+      "matched_query_tag": "query:pqc-acc",
+      "matched_query_text": "lattice-based cryptographic accumulator constructions and proofs"
+    },
+    {
+      "paper_id": "ieee-sp-2024-mpc-in-the-head-framework-without-repetition-and-its-applications-to-the-lattice-based-cryptography",
+      "score": 4.0,
+      "evidence_en": "lattice-based NIZKAoK proofs usable for accumulator membership proofs, but not accumulators themselves",
+      "evidence_cn": "面向格的NIZKAoK证明可用于累加器成员证明，但本身非累加器",
+      "canonical_evidence": "面向格的NIZKAoK证明可用于累加器成员证明，但本身非累加器",
+      "tldr_en": "Diet removes repetition in MPC-in-the-Head, yielding polylogarithmic-size NIZKAoK for NP relations with lattice-based applications, useful for proving membership in PQ accumulators.",
+      "tldr_cn": "本文针对MPC-in-the-Head类零知识证明需重复多次MPC求值、证明规模至少为电路大小λ倍的问题，提出免重复的Diet框架，使任意NP关系的非交互零知识论证的证明规模与时间对电路规模仅为多对数级。该框架并应用于基于格的密码学，构造了更紧凑的格基证明。其证明技术可支撑后量子累加器中成员与非成员证明的构造，但论文本身并不直接设计累加器。",
+      "title_zh": "免重复的MPC-in-the-Head框架及其在基于格密码学中的应用",
+      "motivation_cn": "现有MPC-in-the-Head证明需多次重复MPC求值，证明规模随电路线性膨胀。",
+      "method_cn": "提出免重复的Diet框架，构造任意NP关系的非交互零知识论证，并用于格基密码。",
+      "result_cn": "证明规模与时间对电路规模仅达多对数级，显著优于需重复的方案。",
+      "conclusion_cn": "为格基后量子场景提供了紧凑零知识证明工具，可服务于累加器证明构造。",
+      "matched_requirement_id": "req-2",
+      "matched_query_tag": "query:pqc-acc",
+      "matched_query_text": "lattice-based cryptographic accumulator constructions and proofs"
+    }
+  ],
+  "llm_ranked_at": "2026-10-30T00:57:54.243634+00:00",
+  "display_min_score": 4.0,
+  "pruned_at": "2026-10-30T00:57:54.273792+00:00"
+}

@@ -1,0 +1,191 @@
+Title: Scalable Registration-Based Encryption from Lattices
+
+URL Source: https://www.computer.org/csdl/proceedings-article/sp/2026/606500d128/2geEWUwjm7e
+
+Markdown Content:
+Opens in a new window Opens an external website Opens an external website in a new window
+
+This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. [Privacy Policy](https://www.ieee.org/security-privacy.html)
+
+Accept Deny Manage Preferences 
+
+*   ![Image 2: CSDL Logo](https://csdl-images.ieeecomputer.org/website/csdl-logos/logo-white.png)    
+*   [Join Us](https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?sourceCode=cs&autoSignin=Y&signinurl=https://www.computer.org/wp-json/global/login&url=https://www.computer.org/wp-json/global/login)
+*   [Sign In](javascript: void(0))
+*   [My Subscriptions](https://www.computer.org/csdl/my-subscriptions)
+*   [Magazines](https://www.computer.org/csdl/magazines)
+*   [Journals](https://www.computer.org/csdl/journals)
+*   [Video Library](https://www.computer.org/csdl/video-library)
+*   [Conference Proceedings](https://www.computer.org/csdl/proceedings)
+*   [Individual CSDL Subscriptions](javascript: void(0);)
+*   [Institutional CSDL Subscriptions](https://www.computer.org/digital-library/institutional-subscriptions)
+*   [Resources](javascript: void(0);)
+    *   [Career Center](https://jobs.computer.org/)
+    *   [Tech News](https://www.computer.org/publications/tech-news)
+    *   [Resource Center](https://www.computer.org/resources)
+    *   [Press Room](https://www.computer.org/press-room)
+    *   [Advertising](https://www.computer.org/advertising)
+    *   [Librarian Resources](https://www.computer.org/csdl/digital-library/librarian-resources)
+
+*   [IEEE.org](https://www.ieee.org/)
+*   [IEEE CS Standards](https://www.computer.org/volunteering/boards-and-committees/standards-activities/home)
+*   [Career Center](https://jobs.computer.org/)
+*   [About Us](https://www.computer.org/about)
+*   [Subscribe to Newsletter](https://www.computer.org/resources/newsletters?source=utility)
+
+*   [0](javascript: void(0);)
+*   [Sign In](javascript: void(0);)
+
+Toggle navigation[![Image 3: IEEE Computer Society Digital Library](https://csdl-images.ieeecomputer.org/website/csdl-logos/IEEE-CS_DigitalLibrary_LogoTM_White.svg)![Image 4: IEEE Computer Society Digital Library](https://csdl-images.ieeecomputer.org/website/csdl-logos/IEEE-CS_DigitalLibrary_LogoTM_White.svg)](https://www.computer.org/csdl/)
+
+[![Image 5: IEEE Computer Society](https://csdl-images.ieeecomputer.org/website/csdl-logos/cs-logo.svg)](https://www.computer.org/)[![Image 6: IEEE](https://csdl-images.ieeecomputer.org/website/csdl-logos/ieee-logo.svg)](https://www.ieee.org/)
+
+*   [My Subscriptions](https://www.computer.org/csdl/my-subscriptions)
+*   Browse Content
+*   Resources
+
+ All 
+
+[0](https://www.computer.org/csdl)
+
+![Image 7: Conference Cover Image](https://csdl-images.ieeecomputer.org/website/default-covers/proceedings/proceedings.jpg)
+
+*   [Previous](https://www.computer.org/csdl/proceedings-article/sp/2026/606500c502/2hBEsvDqYSY "Previous Article")[Next](https://www.computer.org/csdl/proceedings-article/sp/2026/606500d706/2geEXw0Mwhy "Next Article")
+*   [Table of Contents](https://www.computer.org/csdl/proceedings/sp/2026/2bojuokAJK8)
+*   [Similar Articles](https://www.computer.org/csdl)
+
+1.   [Home](https://www.computer.org/csdl/home)
+2.   [Proceedings](https://www.computer.org/csdl/proceedings)
+3.   [SP](https://www.computer.org/csdl/proceedings/1000646)
+4.   [SP 2026](https://www.computer.org/csdl/proceedings/sp/2026/2bojuokAJK8)
+
+2026 IEEE Symposium on Security and Privacy (SP)
+
+# Scalable Registration-Based Encryption from Lattices
+
+Year: 2026, Pages: 2520-2538
+
+DOI Bookmark: [10.1109/SP63933.2026.00199](https://doi.ieeecomputersociety.org/10.1109/SP63933.2026.00199)
+
+#### Authors
+
+[Michael Klooß](https://www.computer.org/csdl/search/default?type=author&givenName=Michael&surname=Kloo%C3%9F), Karlsruhe Institute of Technology & KASTEL Security Research Labs,Germany  
+[Russell W. F. Lai](https://www.computer.org/csdl/search/default?type=author&givenName=Russell%20W.%20F.&surname=Lai), Aalto University,Finland  
+[Jan Niklas Siemer](https://www.computer.org/csdl/search/default?type=author&givenName=Jan%20Niklas&surname=Siemer), King's College London,United Kingdom  
+[Monisha Swarnakar](https://www.computer.org/csdl/search/default?type=author&givenName=Monisha&surname=Swarnakar), Aalto University,Finland  
+
+[Download PDF](javascript:void(0))
+
+ SHARE ARTICLE 
+
+ Generate Citation 
+
+* * *
+
+#### Abstract
+
+Registration-Based Encryption (RBE) is a public-key encryption mechanism which allows a user to register their identity (e.g. email address) and self-generated public key with a key curator (e.g. an organisation). The key curator aggregates these keys into a compact digest. Using only this digest and the recipient's identity, anyone can encrypt messages to any registered user. As the key curator is not entrusted with any secrets, RBE presents a solution to the key escrow problem, which impedes the adoption of Identity-Based Encryption. This makes RBE an attractive solution for secure communication with and among members of an organisation while preserving user privacy. Despite recent advances [Döttling-Kolonelos-Lai-Lin-Malavolta-Rahimi, EUROCRYPT'23; Fiore-Kolonelos-dePerthuis, ASIACRYPT'23], practical constructions of RBE are still limited to a small number of registered users (e.g. 1024), lack post-quantum security, or have ciphertext sizes scaling in the order of GB. The predominant way towards constructing practical RBE is a generic transformation from Laconic Encryption (LE). In this work, we identify an efficiency bottleneck in this transformation and present a new primitive called Batched Laconic Encryption (BLE) which admits a more succinct transformation to RBE. Our resulting RBE scheme is the first post-quantum construction that simultaneously supports a large number of registered users and asymptotically outperforms all comparable RBE schemes. Concretely, for at most 2 30 registered users at 128-bit security, our scheme achieves a ciphertext size of 7 MB, improving on previously reported results by three orders of magnitude. We confirm our results through an open-source prototype implementation demonstrating that all algorithms execute within a few milliseconds. The post-quantum security of our construction is based on the standard Learning with Errors assumption, and our analysis enables several tweaks to significantly reduce ciphertext sizes in practical deployments.
+
+Like what you’re reading?
+
+_Already a member?_ Sign In
+
+ Non-Member 
+
+36.00
+
+ Member 
+
+16.00
+
+ Add to Cart  Sign In 
+
+ Get this article **FREE** with a [new membership](https://www.computer.org/membership/join)! 
+
+* * *
+
+#### Similar Articles
+
+*   [LSSS Matrix-Based Attribute-Based Encryption on Lattices](https://www.computer.org/csdl/proceedings-article/cis/2017/482201a253/12OmNBIWXEn)  
+2017 13th International Conference on Computational Intelligence and Security (CIS)
+*   [An Additively Homomorphic Encryption from Ideal Lattices](https://www.computer.org/csdl/proceedings-article/3pgcic/2015/9473a780/12OmNBoNrpt)  
+2015 10th International Conference on P2P, Parallel, Grid, Cloud and Internet Computing (3PGCIC)
+*   [Full Secure Identity-Based Encryption Scheme over Lattices in the Standard Model](https://www.computer.org/csdl/proceedings-article/3pgcic/2015/9473a412/12OmNCbCrP8)  
+2015 10th International Conference on P2P, Parallel, Grid, Cloud and Internet Computing (3PGCIC)
+*   [Attribute-Based Encryption for Restricted Circuits from Lattices](https://www.computer.org/csdl/proceedings-article/cis/2014/7434a450/12OmNwE9OtS)  
+2014 Tenth International Conference on Computational Intelligence and Security (CIS)
+*   [Two Improved Algorithms Based on Character Encryption and Decryption](https://www.computer.org/csdl/proceedings-article/isecs/2010/05557435/12OmNz61dzn)  
+2010 Third International Symposium on Electronic Commerce and Security (ISECS 2010)
+*   [A Lattice-Based Public Encryption with Key Search Scheme for Wireless Sensor Networks](https://www.computer.org/csdl/proceedings-article/ciis/2017/3886a126/12OmNzV70o7)  
+2017 International Conference on Computing Intelligence and Information System (CIIS)
+*   [Multi-Authority Ciphertext Policy Attribute-Based Encryption Scheme on Ideal Lattices](https://www.computer.org/csdl/proceedings-article/ispa-iucc-bdcloud-socialcom-sustaincom/2018/114100b003/18AuME0ufny)  
+2018 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Ubiquitous Computing & Communications, Big Data & Cloud Computing, Social Computing & Networking, Sustainable Computing & Communications (ISPA/IUCC/BDCloud/SocialCom/SustainCom)
+*   [Attribute-Based Encryption for Circuits of Unbounded Depth from Lattices](https://www.computer.org/csdl/proceedings-article/focs/2023/189400a415/1T97a88K1J6)  
+2023 IEEE 64th Annual Symposium on Foundations of Computer Science (FOCS)
+*   [Invisible Barrier: Precise Matchmaking Encryption With Keyword Search From Lattices](https://www.computer.org/csdl/journal/tq/2026/05/11615057/2ij2GIUxAcg)  
+IEEE Transactions on Dependable and Secure Computing
+*   [PH-ABSEL: Attribute-Based Searchable Encryption with Policy Hiding from Lattices](https://www.computer.org/csdl/proceedings-article/nana/2026/3300a049/2kbuZYpgArm)  
+2026 International Conference on Networking and Network Applications (NaNA)
+
+![Image 8: IEEE Computer Society logo](https://ieeecs-media.computer.org/wp-media/2022/04/28195553/IEEE-CS_Logo-177x61-2x-orange-white.png)
+
+[Sign up for our newsletter](https://www.computer.org/resources/newsletters "Newsletter Sign Up")
+
+[![Image 9: Facebook](https://cdn.computer.org/common/images/icons/Icon_Facebook.png)](https://www.facebook.com/ieeecomputersociety)
+
+[![Image 10: Twitter](https://cdn.computer.org/common/images/icons/Icon_Twitter-x.png)](https://www.twitter.com/computersociety)
+
+[![Image 11: LinkedIn](https://cdn.computer.org/common/images/icons/Icon_LinkedIn.png)](https://www.linkedin.com/company/8433838?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A33726151422570149105%2CVSRPtargetId%3A8433838%2CVSRPcmpt%3Aprimary)
+
+[![Image 12: Instagram](https://cdn.computer.org/common/images/icons/Icon_Instagram.png)](https://www.instagram.com/ieee_computer_society/)
+
+[![Image 13: YouTube](https://cdn.computer.org/common/images/icons/Icon_YouTube.png)](https://www.youtube.com/user/ieeeComputerSociety)
+
+IEEE COMPUTER SOCIETY
+
+*   [About Us](https://www.computer.org/about)
+*   [Board of Governors](https://www.computer.org/volunteering/board-of-governors)
+*   [Newsletters](https://www.computer.org/resources/newsletters)
+*   [Press Room](https://www.computer.org/press-room)
+*   [IEEE Support Center](https://supportcenter.ieee.org/)
+*   [Contact Us](https://www.computer.org/about/contact)
+
+DIGITAL LIBRARY
+
+*   [Magazines](https://www.computer.org/csdl/magazines)
+*   [Journals](https://www.computer.org/csdl/journals)
+*   [Conference Proceedings](https://www.computer.org/csdl/proceedings)
+*   [Video Library](https://www.computer.org/csdl/video-library)
+
+COMPUTING RESOURCES
+
+*   [Jobs Board](https://jobs.computer.org/)
+*   [Courses & Certifications](https://www.computer.org/education)
+*   [Webinars](https://www.computer.org/video-library)
+*   [Podcasts](https://www.computer.org/resources/podcasts)
+*   [Tech News](https://www.computer.org/publications/tech-news)
+*   [Membership](https://www.computer.org/membership/)
+
+COMMUNITY RESOURCES
+
+*   [Conference Organizers](https://www.computer.org/conferences/organize-a-conference/organizer-resources)
+*   [Authors](https://www.computer.org/publications/author-resources)
+*   [Chapters](https://www.computer.org/communities/professional-chapters/resources)
+*   [Communities](https://www.computer.org/communities)
+
+BUSINESS SOLUTIONS
+
+*   [Corporate Partnerships](https://www.computer.org/corporate-programs)
+*   [Conference Sponsorships & Exhibits](https://www.computer.org/advertising-and-sponsorship-opportunities/conference-sponsorship-and-exhibit-sales?source=advertise)
+*   [Advertising](https://www.computer.org/advertising-and-sponsorship-opportunities)
+*   [Recruiting](https://www.computer.org/advertising/recruitment)
+*   [Digital Library Institution Subscriptions](https://www.computer.org/digital-library/institutional-subscriptions)
+
+POLICIES
+
+*   [Privacy](https://www.ieee.org/security-privacy.html)
+*   [Accessibility Statement](https://www.ieee.org/accessibility-statement.html)
+*   [IEEE Nondiscrimination Policy](https://www.ieee.org/nondiscrimination)
+*   [XML Sitemap](https://www.computer.org/sitemap_index.xml)
+
+Copyright 2026 IEEE - All rights reserved. A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.

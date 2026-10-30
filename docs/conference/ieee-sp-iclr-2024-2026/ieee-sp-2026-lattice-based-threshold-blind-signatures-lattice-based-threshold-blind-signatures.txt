@@ -1,0 +1,192 @@
+Title: Lattice-Based Threshold Blind Signatures
+
+URL Source: https://www.computer.org/csdl/proceedings-article/sp/2026/606500c196/2geEVUjjSGA
+
+Published Time: Tue, 06 Oct 2026 18:43:04 GMT
+
+Markdown Content:
+Opens in a new window Opens an external website Opens an external website in a new window
+
+This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. [Privacy Policy](https://www.ieee.org/security-privacy.html)
+
+Accept Deny Manage Preferences 
+
+*   ![Image 2: CSDL Logo](https://csdl-images.ieeecomputer.org/website/csdl-logos/logo-white.png)    
+*   [Join Us](https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?sourceCode=cs&autoSignin=Y&signinurl=https://www.computer.org/wp-json/global/login&url=https://www.computer.org/wp-json/global/login)
+*   [Sign In](javascript: void(0))
+*   [My Subscriptions](https://www.computer.org/csdl/my-subscriptions)
+*   [Magazines](https://www.computer.org/csdl/magazines)
+*   [Journals](https://www.computer.org/csdl/journals)
+*   [Video Library](https://www.computer.org/csdl/video-library)
+*   [Conference Proceedings](https://www.computer.org/csdl/proceedings)
+*   [Individual CSDL Subscriptions](javascript: void(0);)
+*   [Institutional CSDL Subscriptions](https://www.computer.org/digital-library/institutional-subscriptions)
+*   [Resources](javascript: void(0);)
+    *   [Career Center](https://jobs.computer.org/)
+    *   [Tech News](https://www.computer.org/publications/tech-news)
+    *   [Resource Center](https://www.computer.org/resources)
+    *   [Press Room](https://www.computer.org/press-room)
+    *   [Advertising](https://www.computer.org/advertising)
+    *   [Librarian Resources](https://www.computer.org/csdl/digital-library/librarian-resources)
+
+*   [IEEE.org](https://www.ieee.org/)
+*   [IEEE CS Standards](https://www.computer.org/volunteering/boards-and-committees/standards-activities/home)
+*   [Career Center](https://jobs.computer.org/)
+*   [About Us](https://www.computer.org/about)
+*   [Subscribe to Newsletter](https://www.computer.org/resources/newsletters?source=utility)
+
+*   [0](javascript: void(0);)
+*   [Sign In](javascript: void(0);)
+
+Toggle navigation[![Image 3: IEEE Computer Society Digital Library](https://csdl-images.ieeecomputer.org/website/csdl-logos/IEEE-CS_DigitalLibrary_LogoTM_White.svg)![Image 4: IEEE Computer Society Digital Library](https://csdl-images.ieeecomputer.org/website/csdl-logos/IEEE-CS_DigitalLibrary_LogoTM_White.svg)](https://www.computer.org/csdl/)
+
+[![Image 5: IEEE Computer Society](https://csdl-images.ieeecomputer.org/website/csdl-logos/cs-logo.svg)](https://www.computer.org/)[![Image 6: IEEE](https://csdl-images.ieeecomputer.org/website/csdl-logos/ieee-logo.svg)](https://www.ieee.org/)
+
+*   [My Subscriptions](https://www.computer.org/csdl/my-subscriptions)
+*   Browse Content
+*   Resources
+
+ All 
+
+[0](https://www.computer.org/csdl)
+
+![Image 7: Conference Cover Image](https://csdl-images.ieeecomputer.org/website/default-covers/proceedings/proceedings.jpg)
+
+*   [Previous](https://www.computer.org/csdl/proceedings-article/sp/2026/606500a605/2bojvx7wuVG "Previous Article")[Next](https://www.computer.org/csdl/proceedings-article/sp/2026/606500c772/2geEWwnyvf2 "Next Article")
+*   [Table of Contents](https://www.computer.org/csdl/proceedings/sp/2026/2bojuokAJK8)
+*   [Similar Articles](https://www.computer.org/csdl)
+
+1.   [Home](https://www.computer.org/csdl/home)
+2.   [Proceedings](https://www.computer.org/csdl/proceedings)
+3.   [SP](https://www.computer.org/csdl/proceedings/1000646)
+4.   [SP 2026](https://www.computer.org/csdl/proceedings/sp/2026/2bojuokAJK8)
+
+2026 IEEE Symposium on Security and Privacy (SP)
+
+# Lattice-Based Threshold Blind Signatures
+
+Year: 2026, Pages: 1273-1292
+
+DOI Bookmark: [10.1109/SP63933.2026.00118](https://doi.ieeecomputersociety.org/10.1109/SP63933.2026.00118)
+
+#### Authors
+
+[Sebastian Faller](https://www.computer.org/csdl/search/default?type=author&givenName=Sebastian&surname=Faller), IBM Research Europe,Zurich,Switzerland  
+[Guilhem Niot](https://www.computer.org/csdl/search/default?type=author&givenName=Guilhem&surname=Niot), PQShield,Paris,France  
+[Michael Reichle](https://www.computer.org/csdl/search/default?type=author&givenName=Michael&surname=Reichle), ETH Zurich,Zurich,Switzerland  
+
+[Download PDF](javascript:void(0))
+
+ SHARE ARTICLE 
+
+ Generate Citation 
+
+* * *
+
+#### Abstract
+
+Blind signatures are a central tool for privacypreserving protocols. They allow users to obtain signatures from a signer without the signer seeing the signed message. For instance, it enables electronic cash: signatures correspond to coins which can be issued by the bank in a privacypreserving manner via blind signing. To mitigate the risk of key compromise, threshold blind signatures allow the distribution of the signing key amongst N$N$ parties. While recent works have focused on improving the security of this primitive in the classical setting, no construction is known to date in the post-quantum setting. We present the first construction of a threshold blind signature secure in the post-quantum setting, based on lattices. We prove its security under an interactive variant of the SIS assumption introduced in [Agrawal et al., CCS'22]. Our construction has a reasonable overhead of a factor of roughly 1.4×$1.4 \times$ to 2.5×$2.5 \times$ in signature size over comparable nonthreshold blind signatures over lattices under heuristic but natural assumptions.
+
+Like what you’re reading?
+
+_Already a member?_ Sign In
+
+ Non-Member 
+
+36.00
+
+ Member 
+
+16.00
+
+ Add to Cart  Sign In 
+
+ Get this article **FREE** with a [new membership](https://www.computer.org/membership/join)! 
+
+* * *
+
+#### Similar Articles
+
+*   [An Efficient ID Based Proxy Signature, Proxy Blind Signature and Proxy Partial Blind Signature](https://www.computer.org/csdl/proceedings-article/icit/2008/3513a019/12OmNrkT7vC)  
+2008 International Conference on Information Technology
+*   [Linkability of Two Blind Signature Schemes](https://www.computer.org/csdl/proceedings-article/icicic/2006/26160468/12OmNwCJOMl)  
+Innovative Computing ,Information and Control, International Conference on
+*   [A New Blind Signature and Threshold Blind Signature Scheme from Pairings](https://www.computer.org/csdl/proceedings-article/cisw/2007/30730699/12OmNweBUMs)  
+Computational Intelligence and Security Workshops, International Conference on
+*   [A Simple Forward Secure Blind Signature Scheme Based on Master Keys and Blind Signatures](https://www.computer.org/csdl/proceedings-article/aina/2005/224920139/12OmNzahchi)  
+19th International Conference on Advanced Information Networking and Applications (AINA'05) Volume 1 (AINA papers)
+*   [Hierarchical ID-Based Blind Signature from Lattices](https://www.computer.org/csdl/proceedings-article/cis/2011/4584a803/12OmNzd7bCe)  
+2011 Seventh International Conference on Computational Intelligence and Security
+*   [A Blind Signature Scheme Based on Elliptic Curve Cryptosystem](https://www.computer.org/csdl/proceedings-article/ncm/2009/3769c044/12OmNzvQI5u)  
+Networked Computing and Advanced Information Management, International Conference on
+*   [A New Code-based Blind Signature in Rank Metric](https://www.computer.org/csdl/proceedings-article/icpads/2021/087800a348/1D4M3IAlv2M)  
+2021 IEEE 27th International Conference on Parallel and Distributed Systems (ICPADS)
+*   [Ringtail: Practical Two-Round Threshold Signatures from Learning with Errors](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a070/21B7Re2GxzO)  
+2025 IEEE Symposium on Security and Privacy (SP)
+*   [Blinding Post-Quantum Hash-and-Sign Signatures](https://www.computer.org/csdl/proceedings-article/sp/2026/606500a587/2bojvwnxtRe)  
+2026 IEEE Symposium on Security and Privacy (SP)
+*   [Lattice-Based Blind Ring Signature With Applications to Anonymous Voting Systems](https://www.computer.org/csdl/journal/tq/2026/04/11524202/2gCuIyJM1EY)  
+IEEE Transactions on Dependable and Secure Computing
+
+![Image 8: IEEE Computer Society logo](https://ieeecs-media.computer.org/wp-media/2022/04/28195553/IEEE-CS_Logo-177x61-2x-orange-white.png)
+
+[Sign up for our newsletter](https://www.computer.org/resources/newsletters "Newsletter Sign Up")
+
+[![Image 9: Facebook](https://cdn.computer.org/common/images/icons/Icon_Facebook.png)](https://www.facebook.com/ieeecomputersociety)
+
+[![Image 10: Twitter](https://cdn.computer.org/common/images/icons/Icon_Twitter-x.png)](https://www.twitter.com/computersociety)
+
+[![Image 11: LinkedIn](https://cdn.computer.org/common/images/icons/Icon_LinkedIn.png)](https://www.linkedin.com/company/8433838?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A33726151422570149105%2CVSRPtargetId%3A8433838%2CVSRPcmpt%3Aprimary)
+
+[![Image 12: Instagram](https://cdn.computer.org/common/images/icons/Icon_Instagram.png)](https://www.instagram.com/ieee_computer_society/)
+
+[![Image 13: YouTube](https://cdn.computer.org/common/images/icons/Icon_YouTube.png)](https://www.youtube.com/user/ieeeComputerSociety)
+
+IEEE COMPUTER SOCIETY
+
+*   [About Us](https://www.computer.org/about)
+*   [Board of Governors](https://www.computer.org/volunteering/board-of-governors)
+*   [Newsletters](https://www.computer.org/resources/newsletters)
+*   [Press Room](https://www.computer.org/press-room)
+*   [IEEE Support Center](https://supportcenter.ieee.org/)
+*   [Contact Us](https://www.computer.org/about/contact)
+
+DIGITAL LIBRARY
+
+*   [Magazines](https://www.computer.org/csdl/magazines)
+*   [Journals](https://www.computer.org/csdl/journals)
+*   [Conference Proceedings](https://www.computer.org/csdl/proceedings)
+*   [Video Library](https://www.computer.org/csdl/video-library)
+
+COMPUTING RESOURCES
+
+*   [Jobs Board](https://jobs.computer.org/)
+*   [Courses & Certifications](https://www.computer.org/education)
+*   [Webinars](https://www.computer.org/video-library)
+*   [Podcasts](https://www.computer.org/resources/podcasts)
+*   [Tech News](https://www.computer.org/publications/tech-news)
+*   [Membership](https://www.computer.org/membership/)
+
+COMMUNITY RESOURCES
+
+*   [Conference Organizers](https://www.computer.org/conferences/organize-a-conference/organizer-resources)
+*   [Authors](https://www.computer.org/publications/author-resources)
+*   [Chapters](https://www.computer.org/communities/professional-chapters/resources)
+*   [Communities](https://www.computer.org/communities)
+
+BUSINESS SOLUTIONS
+
+*   [Corporate Partnerships](https://www.computer.org/corporate-programs)
+*   [Conference Sponsorships & Exhibits](https://www.computer.org/advertising-and-sponsorship-opportunities/conference-sponsorship-and-exhibit-sales?source=advertise)
+*   [Advertising](https://www.computer.org/advertising-and-sponsorship-opportunities)
+*   [Recruiting](https://www.computer.org/advertising/recruitment)
+*   [Digital Library Institution Subscriptions](https://www.computer.org/digital-library/institutional-subscriptions)
+
+POLICIES
+
+*   [Privacy](https://www.ieee.org/security-privacy.html)
+*   [Accessibility Statement](https://www.ieee.org/accessibility-statement.html)
+*   [IEEE Nondiscrimination Policy](https://www.ieee.org/nondiscrimination)
+*   [XML Sitemap](https://www.computer.org/sitemap_index.xml)
+
+Copyright 2026 IEEE - All rights reserved. A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.
